@@ -1,7 +1,6 @@
 repos:
-  # Websec hook is MANDATORY, DO NOT comment it.
-  - repo: https://https://github.com/Newvilla97/Newvilla97-github.oi
-    rev: v1.0.1
+  - repo: https://github.com/mercadolibre/fury_websec-git-hooks
+    rev: v1.0.5
     hooks:
       - id: pre_commit_hook
         stages: [commit]
